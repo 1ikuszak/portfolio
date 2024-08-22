@@ -38,7 +38,7 @@ export default function JgTasks() {
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
               </div>
             </CarouselItem>
-            {/* <CarouselItem>
+            <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-5.png" />
               </div>
@@ -47,7 +47,7 @@ export default function JgTasks() {
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-6.png" />
               </div>
-            </CarouselItem> */}
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious className="bg-white hover:bg-transparent" />
           <CarouselNext className="bg-white hover:bg-transparent" />
