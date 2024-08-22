@@ -16,32 +16,46 @@ export default function JgTasks() {
         <div className="border-b">Client Project</div>
       </section>
       <section className="mb-32 hidden lg:block">
-        {/* <CaseStudyCarousel
-          urls={[
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-5.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-6.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-7.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-8.png",
-          ]}
-        /> */}
         <Carousel className="w-full">
           <CarouselContent>
             <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
               </div>
+            </CarouselItem>
+            <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png" />
               </div>
+            </CarouselItem>
+            <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png" />
               </div>
+            </CarouselItem>
+            <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-5.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-6.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-7.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-8.png" />
               </div>
             </CarouselItem>
           </CarouselContent>
