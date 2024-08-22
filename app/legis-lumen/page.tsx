@@ -39,7 +39,7 @@ export default function LegisLumen() {
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage
                   alt="legis-lumen-4"
-                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-2.png"
                 />
               </div>
             </CarouselItem>
