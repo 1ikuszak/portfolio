@@ -24,7 +24,15 @@ export default function LegisLumen() {
                 <DynamicImage
                   alt="legis-lumen-3"
                   url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-3.png"
-                />{" "}
+                />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage
+                  alt="legis-lumen-4"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-1.png"
+                />
               </div>
             </CarouselItem>
             <CarouselItem>
@@ -32,7 +40,7 @@ export default function LegisLumen() {
                 <DynamicImage
                   alt="legis-lumen-4"
                   url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png"
-                />{" "}
+                />
               </div>
             </CarouselItem>
           </CarouselContent>
