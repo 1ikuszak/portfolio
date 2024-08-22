@@ -1,6 +1,11 @@
-import { CaseStudyCarousel } from "@/components/case-study-carousel";
 import DynamicImage from "@/components/dynamic-image";
-
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 export default function JgTasks() {
   return (
     <main className="container mx-auto">
@@ -10,8 +15,8 @@ export default function JgTasks() {
         </h1>
         <div className="border-b">Client Project</div>
       </section>
-      {/* <section className="mb-32 hidden lg:block">
-        <CaseStudyCarousel
+      <section className="mb-32 hidden lg:block">
+        {/* <CaseStudyCarousel
           urls={[
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png",
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png",
@@ -22,8 +27,28 @@ export default function JgTasks() {
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-7.png",
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-8.png",
           ]}
-        />
-      </section> */}
+        /> */}
+        <Carousel className="w-full">
+          <CarouselContent>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
+              </div>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png" />
+              </div>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png" />
+              </div>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious className="bg-white hover:bg-transparent" />
+          <CarouselNext className="bg-white hover:bg-transparent" />
+        </Carousel>
+      </section>
       <section className="mb-32 grid grid-cols-1 gap-4 lg:hidden">
         <div className="relative aspect-video h-full w-full">
           <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
