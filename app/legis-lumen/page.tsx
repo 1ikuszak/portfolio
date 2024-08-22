@@ -21,22 +21,34 @@ export default function LegisLumen() {
           <CarouselContent>
             <CarouselItem>
               <div className="relative aspect-video h-full w-full">
-                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
+                <DynamicImage
+                  alt="legis-lumen-3"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-3.png"
+                />{" "}
               </div>
             </CarouselItem>
             <CarouselItem>
               <div className="relative aspect-video h-full w-full">
-                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png" />
+                <DynamicImage
+                  alt="legis-lumen-4"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png"
+                />{" "}
               </div>
             </CarouselItem>
             <CarouselItem>
               <div className="relative aspect-video h-full w-full">
-                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png" />
+                <DynamicImage
+                  alt="legis-lumen-4"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png"
+                />
               </div>
             </CarouselItem>
             <CarouselItem>
               <div className="relative aspect-video h-full w-full">
-                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
+                <DynamicImage
+                  alt="legis-lumen-5"
+                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-5.png"
+                />
               </div>
             </CarouselItem>
           </CarouselContent>
