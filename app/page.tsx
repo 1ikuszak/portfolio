@@ -283,7 +283,7 @@ export default function Home() {
             </div>
             {/* PHONE & IPAD IMAGES */}
             <div className="relative h-full w-full">
-              {/* <div className="mt-12 space-y-0 md:grid md:grid-cols-2 lg:hidden">
+              <div className="mt-12 space-y-0 md:grid md:grid-cols-2 lg:hidden">
                 <div className="relative aspect-video w-full">
                   <DynamicImage
                     alt="cc"
@@ -316,7 +316,7 @@ export default function Home() {
                     }
                   ></DynamicImage>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
