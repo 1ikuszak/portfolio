@@ -13,7 +13,7 @@ export default function Home() {
     <main className="mx-auto flex w-full flex-col">
       <section className="relative">
         <Suspense fallback={<VideoSkeleton />}>
-          {/* <VideoComponent url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/portfolio-banner.mp4" /> */}
+          <VideoComponent url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/portfolio-banner.mp4" />
         </Suspense>
       </section>
 
