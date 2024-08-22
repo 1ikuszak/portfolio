@@ -35,22 +35,6 @@ export default function LegisLumen() {
                 />{" "}
               </div>
             </CarouselItem>
-            <CarouselItem>
-              <div className="relative aspect-video h-full w-full">
-                <DynamicImage
-                  alt="legis-lumen-4"
-                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png"
-                />
-              </div>
-            </CarouselItem>
-            <CarouselItem>
-              <div className="relative aspect-video h-full w-full">
-                <DynamicImage
-                  alt="legis-lumen-5"
-                  url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-5.png"
-                />
-              </div>
-            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious className="bg-white hover:bg-transparent" />
           <CarouselNext className="bg-white hover:bg-transparent" />
