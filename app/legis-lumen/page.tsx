@@ -1,4 +1,10 @@
-import { CaseStudyCarousel } from "@/components/case-study-carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import DynamicImage from "@/components/dynamic-image";
 
 export default function LegisLumen() {
@@ -10,16 +16,33 @@ export default function LegisLumen() {
         </h1>
         <div className="border-b">Client Project</div>
       </section>
-      {/* <section className="mb-32 hidden lg:block">
-        <CaseStudyCarousel
-          urls={[
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-3.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-1.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-2.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-4.png",
-            "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-5.png",
-          ]}
-        />
+      <section className="mb-32 hidden lg:block">
+        <Carousel className="w-full">
+          <CarouselContent>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png" />
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-video h-full w-full">
+                <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious className="bg-white hover:bg-transparent" />
+          <CarouselNext className="bg-white hover:bg-transparent" />
+        </Carousel>
       </section>
       <section className="mb-32 grid grid-cols-1 gap-4 lg:hidden">
         <div className="relative aspect-video h-full w-full">
@@ -46,7 +69,7 @@ export default function LegisLumen() {
             url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-5.png"
           />
         </div>
-      </section> */}
+      </section>
       <section className="grid grid-cols-1 gap-20 pb-64 md:grid-cols-2">
         <div>
           <h1 className="mb-2 text-3xl">Goal</h1>
