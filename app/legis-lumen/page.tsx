@@ -29,7 +29,7 @@ export default function LegisLumen() {
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-2.png" />
               </div>
             </CarouselItem>
-            <CarouselItem>
+            {/* <CarouselItem>
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-3.png" />
               </div>
@@ -38,7 +38,7 @@ export default function LegisLumen() {
               <div className="relative aspect-video h-full w-full">
                 <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
               </div>
-            </CarouselItem>
+            </CarouselItem> */}
           </CarouselContent>
           <CarouselPrevious className="bg-white hover:bg-transparent" />
           <CarouselNext className="bg-white hover:bg-transparent" />
