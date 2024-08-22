@@ -16,7 +16,7 @@ export default function LegisLumen() {
         </h1>
         <div className="border-b">Client Project</div>
       </section>
-      <section className="mb-32 hidden lg:block">
+      {/* <section className="mb-32 hidden lg:block">
         <Carousel className="w-full">
           <CarouselContent>
             <CarouselItem>
@@ -43,7 +43,7 @@ export default function LegisLumen() {
           <CarouselPrevious className="bg-white hover:bg-transparent" />
           <CarouselNext className="bg-white hover:bg-transparent" />
         </Carousel>
-      </section>
+      </section> */}
       <section className="mb-32 grid grid-cols-1 gap-4 lg:hidden">
         <div className="relative aspect-video h-full w-full">
           <DynamicImage
