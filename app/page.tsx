@@ -13,7 +13,7 @@ export default function Home() {
     <main className="mx-auto flex w-full flex-col">
       <section className="relative">
         <Suspense fallback={<VideoSkeleton />}>
-          <VideoComponent url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/portfolio-banner.mp4" />
+          {/* <VideoComponent url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/portfolio-banner.mp4" /> */}
         </Suspense>
       </section>
 
@@ -176,7 +176,7 @@ export default function Home() {
 
         <div className="lg:grid lg:grid-cols-3 2xl:h-auto 2xl:grid-cols-7">
           {/* DESKTOP IMAGES */}
-          <div className="col-span-2 hidden gap-0 border-b border-r border-dotted border-black lg:grid lg:grid-cols-2 2xl:col-span-5 2xl:grid-cols-2">
+          {/* <div className="col-span-2 hidden gap-0 border-b border-r border-dotted border-black lg:grid lg:grid-cols-2 2xl:col-span-5 2xl:grid-cols-2">
             <div className="relative aspect-video h-full w-full xl:aspect-square 2xl:aspect-video">
               <DynamicImage
                 alt="cc"
@@ -209,7 +209,7 @@ export default function Home() {
                 }
               ></DynamicImage>
             </div>
-          </div>
+          </div> */}
 
           {/* MY STORY PHONE & IPAD & Desktop */}
           <div className="border-b border-dotted border-black lg:block lg:h-auto xl:col-span-1 2xl:col-span-2">
@@ -283,7 +283,7 @@ export default function Home() {
             </div>
             {/* PHONE & IPAD IMAGES */}
             <div className="relative h-full w-full">
-              <div className="mt-12 space-y-0 md:grid md:grid-cols-2 lg:hidden">
+              {/* <div className="mt-12 space-y-0 md:grid md:grid-cols-2 lg:hidden">
                 <div className="relative aspect-video w-full">
                   <DynamicImage
                     alt="cc"
@@ -316,7 +316,7 @@ export default function Home() {
                     }
                   ></DynamicImage>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

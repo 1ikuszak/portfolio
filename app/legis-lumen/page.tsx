@@ -10,7 +10,7 @@ export default function LegisLumen() {
         </h1>
         <div className="border-b">Client Project</div>
       </section>
-      <section className="mb-32 hidden lg:block">
+      {/* <section className="mb-32 hidden lg:block">
         <CaseStudyCarousel
           urls={[
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-3.png",
@@ -46,7 +46,7 @@ export default function LegisLumen() {
             url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/legis-lumen-5.png"
           />
         </div>
-      </section>
+      </section> */}
       <section className="grid grid-cols-1 gap-20 pb-64 md:grid-cols-2">
         <div>
           <h1 className="mb-2 text-3xl">Goal</h1>
