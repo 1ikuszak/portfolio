@@ -10,7 +10,7 @@ export default function JgTasks() {
         </h1>
         <div className="border-b">Client Project</div>
       </section>
-      <section className="mb-32 hidden lg:block">
+      {/* <section className="mb-32 hidden lg:block">
         <CaseStudyCarousel
           urls={[
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png",
@@ -23,8 +23,8 @@ export default function JgTasks() {
             "https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-8.png",
           ]}
         />
-      </section>
-      {/* <section className="mb-32 grid grid-cols-1 gap-4 lg:hidden">
+      </section> */}
+      <section className="mb-32 grid grid-cols-1 gap-4 lg:hidden">
         <div className="relative aspect-video h-full w-full">
           <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-1.png" />
         </div>
@@ -37,7 +37,7 @@ export default function JgTasks() {
         <div className="relative aspect-video h-full w-full">
           <DynamicImage url="https://lukaszglica-portfolio.s3.eu-north-1.amazonaws.com/jg-tasks-4.png" />
         </div>
-      </section> */}
+      </section>
       <section className="grid grid-cols-1 gap-20 pb-64 md:grid-cols-2">
         <div>
           <h1 className="mb-2 text-3xl">Project Overview</h1>
